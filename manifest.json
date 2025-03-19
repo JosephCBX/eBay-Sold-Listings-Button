@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "eBay Sold Listings",
+    "version": "1.0",
+    "description": "Appends &LH_Complete=1&LH_Sold=1 to eBay URLs when you click the extension icon.",
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "action": {
+    
+      "default_title": "eBay Sold Listings"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
